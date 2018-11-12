@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=飞机大战
+
+
+[Package|飞机大战|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=D:\子翔的程序\飞机大战\包
+
+[Package|飞机大战|Configure DAO ISAMs]
+Applicable=No
+
+[Package|飞机大战|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|飞机大战|Files Found]
+
+[Package|飞机大战|Files Released]
+
+[Package|飞机大战|Missing Dependency Information]
+
+[Package|飞机大战|Out-of-Date Dependency Information]
+
+[Package|飞机大战|Files Added]
+
+[Package|飞机大战|Files Removed]
+
+[Package|飞机大战|Files In Project]
+D:\子翔的程序\飞机大战\飞机大战.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Windows\System32\VB6CHS.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|飞机大战|Configure Registry Files]
+Applicable=No
+
+[Package|飞机大战|Configure Remote Servers]
+Applicable=No
+
+[Package|飞机大战|Install Locations]
+D:\子翔的程序\飞机大战\飞机大战.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Windows\System32\VB6CHS.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|飞机大战|Configure Shared Files]
+Applicable=Yes
+D:\子翔的程序\飞机大战\飞机大战.exe=No
+
+[Package|飞机大战|Distribution]
+Type=single
+Size=
+Title=飞机大战
+
+[Package|飞机大战|IconGroups]
+Group0=飞机大战
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|飞机大战|飞机大战]
+Icon1=飞机大战.exe
+Title1=飞机大战
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|飞机大战|Package]
+PackageFolder=D:\子翔的程序\飞机大战\包
+ProjectFolder=D:\子翔的程序\飞机大战
+ServerSideCab=
+File1=D:\子翔的程序\飞机大战\包\setup.exe
+File2=D:\子翔的程序\飞机大战\包\Setup.Lst
+File3=D:\子翔的程序\飞机大战\包\飞机大战.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
